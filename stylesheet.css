@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar {
+    background-color: black;
+  }
+
+  .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .card {
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .card-header {
+    background-color: #007bff;
+    font-size: 1.5rem;
+  }
+
+  .card-footer {
+    background-color: #f8f9fa;
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+  }
+
+  #cat-fact {
+    font-style: italic;
+    color: #333;
+    padding: 15px;
+    border: 1px dashed #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .spinner-border {
+    display: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #007bff;
+  }
